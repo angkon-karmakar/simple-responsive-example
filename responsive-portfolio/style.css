@@ -1,0 +1,270 @@
+/* shared styles */
+body {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+.primary-colour {
+    color: #fd6e0a;
+}
+
+.button-prime {
+    border-radius: 6px;
+    background: #fd6e0a;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+.section-title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    color: #181818;
+
+}
+
+.section-discription {
+    /* width: 827px; */
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+}
+
+main>section {
+    margin-top: 130px;
+}
+
+
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #474747;
+}
+
+li {
+    margin-right: 50px;
+    color: #474747;
+}
+
+/* header related styles */
+.header {
+    background-color: #fff8f3;
+    background-image: url('images/header_bg.png') , url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right , top left;
+
+
+
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner-banner {
+    width: 585px;
+}
+
+.inner-banner>p {
+    color: #474747;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px;
+    color: #474747;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner>img {
+    width: 500px;
+    margin-right: 50px;
+
+}
+
+
+/* main section styles*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+    padding: 130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    margin: 130px 0px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+
+}
+
+.about-info {
+    text-align: center;
+
+
+
+}
+
+.info-title {
+    color: #474747;
+    font-size: 18px;
+    margin: 0 auto;
+
+}
+
+.info-discription {
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+#what-i-do-des {
+    padding: 30px auto;
+}
+
+/* skills related styles */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    width: 267px;
+    height: 277px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skills>p {
+    text-align: left;
+    width: 204px;
+    color: #757575;
+
+}
+
+.skills>h3 {
+    font-size: 20px;
+}
+
+
+
+/* resume section */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute , .resume-item-description{
+    color: #757575;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-links a{
+    margin-right:25px ;
+}
+.contact input[type="text"] ,input[type="email"] , textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color:#757575;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    width: 60%;
+
+}
+.contact{
+    margin-left: 200px;
+}
+ 
+/* responsive  media quary */
+.hide{
+    display: none;
+}
+
+@media screen and ( max-width:576px) {
+
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
